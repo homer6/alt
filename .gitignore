@@ -18,3 +18,5 @@
 /install-sh
 /missing
 /stamp-h?
+/config.h.in~
+/alt

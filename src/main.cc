@@ -1,7 +1,8 @@
-#include <stdio>
+#include <iostream>
+#include "alt.h"
 
 main(){   
 
-    std::cout << "Hello World" << endl;
+    std::cout << "Hello World" << std::endl;
 
 }

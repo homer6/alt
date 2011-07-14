@@ -18,7 +18,7 @@ bin_PROGRAMS = alt
 ## the C++ compiler to produce an object file (.o) from each source file. The
 ## header files (.h) do not result in object files by themselves, but will be
 ## included in distribution archives of the project.
-hello_SOURCES = src/alt.h src/alt.cc src/main.cc
+alt_SOURCES = src/alt.h src/alt.cc src/main.cc
 
 
 ## Define an independent executable script for inclusion in the distribution
