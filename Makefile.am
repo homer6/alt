@@ -11,15 +11,15 @@ ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS}
 
 ## Define an executable target "hello", which will be installed into the
 ## directory named by the predefined variable $(bindir).
-bin_PROGRAMS = hello
+bin_PROGRAMS = alt
 
 ## Define the list of source files for the "hello" target. The file extension
 ## .cc is recognized by Automake, and causes it to produce rules which invoke
 ## the C++ compiler to produce an object file (.o) from each source file. The
 ## header files (.h) do not result in object files by themselves, but will be
 ## included in distribution archives of the project.
-hello_SOURCES = src/hello.h src/hello.cc src/main.cc \
-                src/foofiles/foo.h src/foofiles/foo.cc
+hello_SOURCES = src/alt.h src/alt.cc src/main.cc
+
 
 ## Define an independent executable script for inclusion in the distribution
 ## archive. It will not be installed on an end user's system, however.

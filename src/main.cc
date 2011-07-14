@@ -1,11 +1,7 @@
-#ifdef HAVE_CONFIG_H
-#include <config.h>
-#endif
+#include <stdio>
 
-#include "hello.h"
+main(){   
 
-main()
-{
-    Hello helloTemp;
-    helloTemp.HelloTest();
+    std::cout << "Hello World" << endl;
+
 }
